@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+    <title>Hjem</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="headerLogo">KL</div>
+      <nav>
+        <ul class="navigationList">
+          <li>Nav 1</li>
+          <li>Nav 2</li>
+          <li>Nav 3</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="flexCenter">
+        <!-- Gjøremålsliste -->
+        <div class="todoApp">
+          <h1>Gjøremåls liste</h1>
+          <label for="inputField">
+            Skriv et gjøremål..
+            <input
+              type="text"
+              name="inputField"
+              id="inputField"
+              placeholder="Skriv et gjøremål.."
+            />
+          </label>
+
+          <button id="addButton">Legg til</button>
+
+          <ul id="todoList"></ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h3>Laget av Kodeloftet</h3>
+    </footer>
+  </body>
+</html>
