@@ -57,6 +57,10 @@ section {
   background-color: white;
 }
 
+.done {
+  text-decoration: line-through;
+}
+
 /* FOOTER */
 footer {
   display: flex;
